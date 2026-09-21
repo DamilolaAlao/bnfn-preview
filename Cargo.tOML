@@ -1,0 +1,13 @@
+# Zig project for localtunnel port
+# Using syncio for async support
+
+[syncio]
+threads = true
+
+[dependencies]
+# We'll use zig-http for HTTP client
+# Actually, let's use the standard library and implement a simple HTTP client
+# Or use zig-http if available
+
+[dev-dependencies]
+# Not needed for core implementation

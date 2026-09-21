@@ -1,0 +1,38 @@
+# Zig build artifacts
+zig-cache/
+zig-out/
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git-credentials
+.gitconfig
+
+# Project-specific
+!.git/refs/t3/checkpoints/
+
+# Cargo (for compatibility)
+Cargo.lock
